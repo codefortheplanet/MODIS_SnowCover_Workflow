@@ -7,7 +7,7 @@
 	I found an issue when I was trying to download the snow cover product using a polygon shapeflie of Alaska. The shapefile vertices were simplified to meet the querying requirements. However, it is obvious that some small parts (islands) of Alaska has been removed from the original polygon (see figures below). 
 	
 	<img src="figures/Alaska_Boundary.JPG" alt="" width="250">
-	<figcaption>Orginal Alaska Boundary</figcaption>
+	<figcaption>Alaska Boundary</figcaption>
 	<img src="figures/NSIDC_Simplified.jpg" alt="" width="250">
 	<figcaption>NSDIC simplified Boundary</figcaption>
 	
