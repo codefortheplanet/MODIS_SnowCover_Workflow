@@ -28,7 +28,7 @@
 	<img src="figures/boxplot.png" alt="" width="800">
 	</p>
 	
-	“No decision” pixels also reduced. Water pixels are not changed because these have a much higher certainty and cannot be converted back to snow pixels, thus are not processed further in this workflow. The visulization for Terra and funsion can be found there.
+	“No decision” pixels also reduced. Water pixels are not changed because these have a much higher certainty and cannot be converted back to snow pixels, thus are not processed further in this workflow. The visulization for Terra and funsion can be found there. Note the images are from Janurary 2016 so part of Alaska has very short daylight hours.  
 	
 	<p align="center">	
 	<img src="figures/Comparison.jpg" alt="" align="center" width="600">
