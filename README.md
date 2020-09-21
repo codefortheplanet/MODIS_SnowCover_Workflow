@@ -13,7 +13,7 @@
 	
 	This can potentially cause the missing of some swaths from the querying results. In my script, I updated the method to generate a more inclusive geometry, so these parts are preserved in the simplified polygon (see figures below). 
 
-	<img src="figures/Alaska_Simplified.JPG" alt="" width="300">
+	<img src="figures/Alaska_Simplified.JPG" alt="" width="400">
 	<figcaption>My version of simplified Boundary</figcaption>	
 	
 	The inputs from users are the product name – such as MOD10A1 (Terra) and MYD10A1 (Aqua), time range, and a polygon shapefile for the processing boundary. The script will prompt the users to enter a registered username and password on EarthData portal. Please download this script to a working directory and it will automatically download the HDF5 files for MODIS snow cover.
@@ -31,5 +31,7 @@
 	“No decision” pixels also reduced. Water pixels are not changed because these have a much higher certainty and cannot be converted back to snow pixels, thus are not processed further in this workflow. The visulization for Terra and funsion can be found there.
 	
 	<p align="center">	
-	<img src="figures/Comparison.jpg" alt="" align="center" width="800">
+	<img src="figures/Comparison.jpg" alt="" align="center" width="600">
 	</p>	
+
+### I included some example files that are generated from this workflow in the "example_files" folder.
