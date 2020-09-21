@@ -7,14 +7,14 @@
 	I found an issue when I was trying to download the snow cover product using a polygon shapeflie of Alaska. The shapefile vertices were simplified to meet the querying requirements. However, it is obvious that some small parts (islands) of Alaska has been removed from the original polygon (see figures below). 
 	
 	<img src="figures/Alaska_Boundary.JPG" alt="" width="250">
-	<figcaption>Alaska Boundary</figcaption>
+	<figcaption>Alaska boundary</figcaption>
 	<img src="figures/NSIDC_Simplified.jpg" alt="" width="250">
-	<figcaption>NSDIC simplified Boundary</figcaption>
+	<figcaption>NSDIC simplified boundary</figcaption>
 	
 	This can potentially cause the missing of some swaths from the querying results. In my script, I updated the method to generate a more inclusive geometry, so these parts are preserved in the simplified polygon (see figures below). 
 
 	<img src="figures/Alaska_Simplified.JPG" alt="" width="400">
-	<figcaption>My version of simplified Boundary</figcaption>	
+	<figcaption>My version of simplified boundary</figcaption>	
 	
 	The inputs from users are the product name – such as MOD10A1 (Terra) and MYD10A1 (Aqua), time range, and a polygon shapefile for the processing boundary. The script will prompt the users to enter a registered username and password on EarthData portal. Please download this script to a working directory and it will automatically download the HDF5 files for MODIS snow cover.
 
