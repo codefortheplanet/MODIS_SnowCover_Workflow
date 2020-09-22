@@ -1,6 +1,8 @@
 # MODIS_SnowCover_Workflow
 
-## This is a MODIS (Moderate Resolution Imaging Spectroradiometer) snow cover data processing workflow written in Python based on my previous research project for Arctic Hydrology. In this workflow, I included open source geospatial analysis libraries such as GDAL/OGR, Geopandas, shapely and other widely used scientific computing libraries such as NumPy and SciPy. The workflow includes three major steps and each of the steps is provided by one Python file. This is to ensure a flexible adoptation for processing other data products from EarthData portal, such as Landsat.  
+## A MODIS (Moderate Resolution Imaging Spectroradiometer) snow cover data processing workflow written in Python based on my previous research project for Arctic Hydrology. 
+
+In this workflow, I included open source geospatial analysis libraries such as GDAL/OGR, Geopandas, shapely and other widely used scientific computing libraries such as NumPy and SciPy. The workflow includes three major steps and each of the steps is provided by one Python file. This is to ensure a flexible adoptation for processing other data products from EarthData portal, such as Landsat.  
 
 1.	**nsidc-download_MODIS.py**: Automated download of MODIS swaths for snow cover products (Terra and Aqua) for customized user inputs. MODIS snow cover L3 product is computed using the NDSI (Normalized Difference Snow Index), based on the unique signature of snow reflectance differences between visible (high) and shortwave infrared bands (low). This script is directly adopted from NSIDC data download portal but has been improved to allow user input of interested spatial boundary (a polygon shapefile) and a more accurate simplification for the query boundary. Here is the link to the NSDIC download portal (click “Download” tab): https://nsidc.org/data/MOD10A1/versions/6
 
